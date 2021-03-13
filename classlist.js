@@ -12,6 +12,10 @@
 
 // 1. Get the element with the `elements` class from the DOM and save it to
 //    a variable.
+let element = document.querySelector(".elements");
 // 2. Add the class `this-is-fun` to the .elements node
+element.classList.add('this-is-fun');
 // 3. Add the class `disco-party` to the .elements node
+element.classList.add('disco-party');
 // 4. Remove the class `elements` from the .elements node
+element.classList.remove('elements');
